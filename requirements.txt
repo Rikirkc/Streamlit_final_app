@@ -3,6 +3,5 @@ langchain
 langchain_community
 langchain-google-genai
 langchain_chroma
-sqlite3
 chromadb
 pypdf
