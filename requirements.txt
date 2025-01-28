@@ -3,6 +3,6 @@ langchain
 langchain_community
 langchain-google-genai
 langchain_chroma
-chromadb = 0.5.23
+chromadb == 0.5.23
 pypdf
 flashrank
