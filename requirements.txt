@@ -1,5 +1,5 @@
 streamlit
-sqlite3 >= 3.35.0.
+sqlite3 >= 3.35.0
 langchain_chroma
 pypdf
 langchain_community
