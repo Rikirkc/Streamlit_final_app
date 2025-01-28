@@ -87,6 +87,9 @@ def load_vector_db_from_cache(persist_dir):
 st.title("Enhanced RAG System with Google Gemini")
 
 base_persist_dir = './DB'
+if not os.path.exists(base_persist_dir):
+    os.makedirs(base_persist_dir)
+
 persist_dirs = [os.path.join(base_persist_dir, d) for d in os.listdir(base_persist_dir)]
 persist_dirs_final = [items.split("/")[-1] for items in persist_dirs]
 
