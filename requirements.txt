@@ -5,3 +5,4 @@ langchain-google-genai
 langchain_chroma
 pypdf
 flashrank
+pysqlite3-binary

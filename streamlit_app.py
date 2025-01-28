@@ -11,6 +11,10 @@ from langchain.retrievers.document_compressors.flashrank_rerank import Flashrank
 from langchain.chains.retrieval_qa.base import RetrievalQA
 from flashrank import Ranker
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 load_dotenv()
 
 GEMINI_API_KEY = st.secrets['GEMINI_API_KEY']
