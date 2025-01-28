@@ -1,7 +1,7 @@
 streamlit
-langchain_chroma
-pypdf
-langchain_community
 langchain
-flashrank
+langchain_community
 langchain-google-genai
+langchain_chroma
+chromadb
+pypdf
