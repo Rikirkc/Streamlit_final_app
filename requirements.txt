@@ -2,6 +2,5 @@ streamlit
 langchain
 langchain_community
 langchain-google-genai
-chromadb == 0.3.29
 langchain_chroma
 pypdf
